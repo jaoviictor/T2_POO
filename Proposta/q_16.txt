@@ -1,0 +1,44 @@
+package q_16;
+import java.util.Scanner;
+public class principal {
+
+	public static void main(String[] args) {
+		
+        Scanner sc = new Scanner(System.in);
+       
+        System.out.print("Digite o preço atual do produto: ");
+        double preco = sc.nextDouble();
+        
+        System.out.print("Digite o código do produto: ");
+        int codigo = sc.nextInt();
+
+        double desconto = 0.0;
+        switch (codigo) {
+            case 1:
+                desconto = 0.1;
+                break;
+            case 2:
+                desconto = 0.2;
+                break;
+            case 3:
+                desconto = 0.3;
+                break;
+            case 4:
+                desconto = 0.4;
+                break;
+            default:
+            	System.out.print(" Codigo invalido :( ");
+            	System.out.print("Tente novamente! ");
+                System.exit(0);
+        }
+
+        double valordesconto = preco * desconto;
+        double novopreco = preco - valordesconto;
+
+        System.out.printf("Preço atual: R$ %.2f\n", preco);
+        System.out.printf("Valor do desconto: R$ %.2f\n", valordesconto);
+        System.out.printf("Novo preço: R$ %.2f\n", novopreco);
+
+        sc.close();
+    }
+}

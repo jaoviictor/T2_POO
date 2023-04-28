@@ -1,0 +1,29 @@
+package q_08;
+import java.util.Scanner;
+public class principal {
+
+	public static void main(String[] args) {
+		
+			Scanner et = new Scanner(System.in);
+
+			System.out.print("Digite o salário atual do funcionário: ");
+			double salario = et.nextDouble();
+
+			double percentual;
+
+			if (salario <= 1000) {
+				percentual = 0.35;
+			} else {
+				percentual = 0.15;
+			}
+
+			double aumento = salario * percentual;
+			double novoSalario = salario + aumento;
+
+			System.out.printf("O salário reajustado é: R$ %.2f\n " + novoSalario);
+
+			et.close();
+		}
+	
+
+}

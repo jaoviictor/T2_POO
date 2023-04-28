@@ -1,0 +1,21 @@
+package t2_17;
+import java.util.Scanner;
+public class principal {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.print("Digite sua senha: ");
+		double senha = sc.nextDouble();
+		
+	if (senha == 9784) {
+		System.out.println("Sua senha está correta ");
+	}
+	else { System.out.println("Tente novamente, a senha está errada.");
+	}
+	
+
+}
+
+
+	
+}

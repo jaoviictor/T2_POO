@@ -14,5 +14,5 @@ P3
 # Professor
 Roger Moura Sarmento 
 
-#Lingagem utilizada
+# Lingagem utilizada
 Java

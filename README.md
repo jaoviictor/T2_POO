@@ -1,18 +1,19 @@
-📌# T2_POO
+ 
+#  📌 T2_POO
 Segundo trabalho de POO 
 Questões Resolvidas e Proprostas
 
-📌# Nome
+#  Nome
 João Victor Pereira Celestino
 
-📌# Curso
+ # Curso
 T.I Em Informática
 
-📌# Período
+# Período
 P3
 
-📌# Professor
+# Professor
 Roger Moura Sarmento 
 
-📌# Lingagem utilizada
+# Lingagem utilizada
 Java
